@@ -1,2 +1,12 @@
 /* Journey to the Center of the Earth Practicum */
 /* Jessica Nagar*/
+
+body {
+
+    margin: 8rem;
+    padding: 2rem;
+    border: 10px solid #886644;
+    box-shadow: inset 1em 1em 2.5rem #1a140f;
+    border-radius: 2rem;
+
+}
