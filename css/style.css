@@ -4,13 +4,13 @@
 /* Body */
 
 body {
-    background: fixed linear-gradient(335deg, #000000 0%, #765729 100%);
-
-    margin: 8rem;
-    padding: 2rem;
-    border-image: fixed linear-gradient(335deg, #000000 0%, #765729 100%);
+   
     box-shadow: inset 1em 1em 2.5rem #1a140f;
     border-radius: 2rem;
+    margin: 8rem;
+    padding: 0.25rem;
+
+    background: fixed linear-gradient(#765729 0%, #000000 100%); */
 
     
     
@@ -18,7 +18,7 @@ body {
 
 h2 {
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px dashed black;
 
 }
 
@@ -73,6 +73,12 @@ nav li:last-child{
     border-right: 0;
 }
 
+nav {
+
+    background: white;
+    opacity: 0.75;
+}
+
 /* Main */
 
 main img{
@@ -108,4 +114,25 @@ main :lang(id){
 .character {
 
     font-weight: bold;
+}
+
+main {
+
+    background: white;
+    opacity: 0.75;
+}
+
+/* Aside */
+
+aside {
+
+    background: white;
+    opacity: 0.75;
+}
+
+/* Footer */
+
+footer {
+
+
 }
