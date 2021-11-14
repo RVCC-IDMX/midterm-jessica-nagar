@@ -1,0 +1,237 @@
+/* Journey to the Center of the Earth Practicum */
+/* Jessica Nagar*/
+
+/* Body */
+
+body {
+   
+    box-shadow: inset 1em 1em 2.5rem #1a140f;
+    border-radius: 2rem;
+    margin: 8rem;
+    padding: 0.25rem;
+
+    background: fixed linear-gradient(#765729 0%, #000000 100%); 
+
+    
+    
+}
+
+h2 {
+
+    border-bottom: 1px dashed black;
+
+}
+
+/* Links */
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+a:link{
+
+    color:black;
+
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover {
+    color: #A52A2A;
+    text-decoration-line: underline;
+}
+
+
+/* Header */
+
+header {
+
+    background-image: url("../img/cave.jpg");
+    box-shadow: inset 1em 1em 2rem #1a140f;
+
+    font-size: large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+
+    height: 80px;
+
+}
+
+/* Nav */
+
+nav li{
+
+    display: inline-block;
+    border-right: 5px double #886644;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+nav li:first-child{
+
+    padding-left: 25rem;
+
+}
+
+nav li:last-child{
+    border-right: 0;
+}
+
+nav {
+
+    background: white;
+    opacity: 75%;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+/* Main */
+
+main {
+
+    background: white;
+    opacity: 75%;
+
+    display: block;
+    float: left;
+    max-width: 75%;
+
+
+}
+
+main h2 {
+
+    padding-left: 1rem;
+
+}
+
+main img{
+
+    float:left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+    max-width: 200px;
+
+}
+
+main p {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+main figure img {
+
+    background-color: white;
+
+}
+
+main p:first-of-type::first-line{
+
+    font-size: larger;
+
+}
+
+main :lang(fr){
+
+    font-style: italic;
+}
+
+main :lang(is){
+    
+    font-style: italic;
+}
+
+main :lang(it){
+    font-style: italic;
+}
+
+main :lang(id){
+    font-style: italic;
+}
+
+.character {
+
+    font-weight: bold;
+}
+
+/* Aside */
+
+aside {
+
+    background: white;
+    opacity: 0.75;
+
+    display: block;
+    float: right;
+    max-width: 24%;
+
+    padding-bottom: 24.3rem;
+}
+
+aside h2 {
+
+    padding-left: 1rem;
+
+}
+
+.submission {
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.opinion {
+
+    text-align: center;
+    font-weight: bold;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+    border: 2px solid #886644;
+    border-bottom: none;
+
+}
+
+.signature {
+
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+
+    border: 2px solid #886644;
+    border-top: none;
+
+}
+
+/* Footer */
+
+footer {
+
+    max-width: 100%;
+
+
+}
